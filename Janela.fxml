@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="420.0" layoutY="258.0" mnemonicParsing="false" text="Check" />
+      <Separator layoutX="297.0" layoutY="-32.0" orientation="VERTICAL" prefHeight="432.0" prefWidth="0.0" />
+      <Label alignment="CENTER" layoutX="345.0" layoutY="232.0" prefHeight="17.0" prefWidth="199.0" text="Clique para verificar as caronas" />
+      <Label alignment="CENTER" layoutX="345.0" layoutY="295.0" prefHeight="17.0" prefWidth="199.0" text="PlaceHolder" />
+      <ComboBox id="nomesCombo" layoutX="369.0" layoutY="194.0" prefWidth="150.0" />
+      <Label id="consultaLabel" alignment="CENTER" layoutX="342.0" layoutY="148.0" prefHeight="25.0" prefWidth="205.0" text="Consulta Caronas">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="60.0" layoutY="43.0" prefHeight="103.0" prefWidth="174.0" text="Adiciona Pessoa">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField layoutX="73.0" layoutY="163.0" />
+   </children>
+</Pane>
